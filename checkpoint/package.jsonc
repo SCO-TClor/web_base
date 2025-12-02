@@ -1,0 +1,9 @@
+{
+  "name": "pedroutility",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [],
+  "author": "SCO_TClor",
+  "description": "Mini biblioteca de algoritmos criada para estudos"
+}

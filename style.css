@@ -1,0 +1,64 @@
+/* Font Import: */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gravitas+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* CSS code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root[data-theme='FutureNocturne'] {
+    /* Structure: */
+    --fundo: #0A0A13;
+    --cards: #11121A;
+    --superf: #1A1C29;
+    --divisor: #2A2C3A;
+    /* Texts: */
+    --textMain: #F0F2FF;
+    --textSec: #A7ADCC;
+    --textDeb : #6D738F;
+    /* Accents: */
+    --softAcc: #7B4EFF;
+    --neon: #28D7FF;
+    /* Background opc: background: linear-gradient(145deg, var(--fundo) 0%, var(--cards) 60%, var(--superf) 100%); */
+}
+:root[data-theme='NeonNight'] {
+    --fundo: #0D0D0D;
+    --superf: #1A1A1A;
+    --textMain: #E6E6E6;
+    --textSec: #9A9A9A;
+    --neon: #00E5FF;
+}
+:root[data-theme='ShineCoal'] {
+    --fundo: #0F0F0F;
+    --superf: #1C1C1C;
+    --textMain: #F5F5F5;
+    --textSec: #A8A8A8;
+    --neon: #D4AF37;
+}
+:root[data-theme='GalaxyPurple'] {
+    --fundo: #0B0B10;
+    --superf: #16161D;
+    --textMain: #E0E0F0;
+    --textSec: #9C9CB5;
+    --neon: #7F5AF0;
+}
+:root[data-theme='ForestNight'] {
+    --fundo: #0C1410;
+    --superf: #132018;
+    --textMain: #E4F2E9;
+    --textSec: #97B9A3;
+    --neon: #38E19F;
+}
+:root[data-theme='DarkBlue'] {
+    --fundo: #0A0F1A;
+    --superf: #131C2B;
+    --textMain: #F0F4FA;
+    --textSec: #909EAF;
+    --neon: #4EA8DE;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--fundo);
+}
